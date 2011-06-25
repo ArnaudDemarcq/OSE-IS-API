@@ -4,10 +4,9 @@ import org.krohm.ose.is.api.action.Action;
 import org.krohm.ose.is.api.proxyaction.ProxyAction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import java.util.Map;
 
-public abstract class ProxyActionImpl /*implements ProxyAction/**/ {
+public abstract class ProxyActionImpl implements ProxyAction {
 
     protected static final Logger logger = LoggerFactory.getLogger(ProxyActionImpl.class);
     protected Action targetAction = null;
