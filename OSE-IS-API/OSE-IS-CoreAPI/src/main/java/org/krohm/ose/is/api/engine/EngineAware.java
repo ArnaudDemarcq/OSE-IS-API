@@ -10,5 +10,5 @@ package org.krohm.ose.is.api.engine;
  */
 public interface EngineAware {
 
-    void setEngine(OseIsEngine harmonyEngine);
+    void setEngine(Engine harmonyEngine);
 }
