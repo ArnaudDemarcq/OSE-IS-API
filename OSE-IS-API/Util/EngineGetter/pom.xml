@@ -2,14 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.krohm.ose.is.util</groupId>
-    <artifactId>Util</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>EngineGetter</artifactId>
+    <packaging>jar</packaging>
+    <name>EngineGetter</name>
     <version>1.0.0-SNAPSHOT</version>
-    <name>OSE-IS Util</name>
-    <modules>
-        <module>ProxyActionUtil</module>
-        <module>EngineGetter</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.krohm.ose.is.api</groupId>
+            <artifactId>OSE-IS-Core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
