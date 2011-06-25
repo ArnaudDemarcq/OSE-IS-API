@@ -1,7 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package org.krohm.ose.is.api.engine;
 
 /**
@@ -10,5 +7,5 @@ package org.krohm.ose.is.api.engine;
  */
 public interface EngineAware {
 
-    void setEngine(Engine harmonyEngine);
+    void setEngine(Engine engine);
 }

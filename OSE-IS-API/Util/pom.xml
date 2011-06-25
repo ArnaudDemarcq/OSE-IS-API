@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.krohm.ose.is.api</groupId>
-    <artifactId>Interfaces</artifactId>
+    <groupId>org.krohm.ose.is.util</groupId>
+    <artifactId>Util</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <name>OSE-IS Interfaces</name>
+    <name>OSE-IS Util</name>
     <modules>
-        <module>OSE-IS-ActionAPI</module>
-        <module>OSE-IS-ProxyActionAPI</module>
-        <module>OSE-IS-CoreAPI</module>
-        <module>Util</module>
+        <module>ProxyActionUtil</module>
     </modules>
     <build>
         <plugins>
